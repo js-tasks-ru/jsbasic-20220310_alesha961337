@@ -1,5 +1,4 @@
 import createElement from "../../assets/lib/create-element.js";
-
 export default class StepSlider {
   constructor({ steps, value = 0 }) {
     this.steps = steps;
@@ -29,7 +28,6 @@ export default class StepSlider {
     const sliderThumb = this.elem.querySelector('.slider__thumb');
     const sliderProgress = this.elem.querySelector('.slider__progress');
     const sliderValue = this.elem.querySelector('.slider__value');
-    // const sliderSteps = this.elem.querySelector('.slider__steps');
 
     this.elem.addEventListener('click', event => {
       let clickPoint = (event.clientX - this.elem.offsetLeft) / this.elem.offsetWidth;
