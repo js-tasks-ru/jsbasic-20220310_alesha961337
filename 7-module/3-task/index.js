@@ -52,4 +52,8 @@ export default class StepSlider {
       );
     });
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 75b805491a036232e59fbeae66e9d9723012169b
